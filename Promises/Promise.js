@@ -5,7 +5,7 @@ const list = ['Satu','Dua'] ;
 
 function getList() {
     setTimeout( () => {
-        for (var i=0;i<=list.length-1;i++){
+        for (var i=0;i<list.length;i++){
             console.log(list[i])
         }
     },3000);
